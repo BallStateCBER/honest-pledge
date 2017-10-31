@@ -16,20 +16,13 @@
         </p>
 
         <p>
-            <label for="citizen">
-                <input type="radio" name="version" value="citizen" id="citizen" />
-                Citizen
-            </label>
-            <br />
-            <label for="business">
-                <input type="radio" name="version" value="business" id="business" />
-                Business
-            </label>
-            <br />
-            <label for="official">
-                <input type="radio" name="version" value="official" id="official" />
-                Official
-            </label>
+            <?php foreach (['citizen', 'business', 'official'] as $version): ?>
+                <label for="<?= $version ?>">
+                    <input type="radio" name="version" value="<?= $version ?>" id="<?= $version ?>" />
+                    <?= ucwords($version) ?>
+                </label>
+                <br />
+            <?php endforeach; ?>
         </p>
 
         <p>
