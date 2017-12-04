@@ -40,7 +40,6 @@ class Pledge
     private function replaceTokens($template, $name)
     {
         $template = str_replace('[name]', $name, $template);
-        $template = str_replace('[date]', date('F j, Y'), $template);
 
         return $template;
     }
@@ -60,7 +59,11 @@ class Pledge
     private function getTemplate($templateName)
     {
         $dir = dirname(__FILE__) . '/Templates';
-        $wrapper = file_get_contents($dir . '/wrapper.php');
+        ob_start();
+        include $dir . '/wrapper.php';
+        $wrapper = ob_get_contents();
+        ob_end_clean();
+
         if (! $wrapper) {
             throw new Exception("Template wrapper not found");
         }

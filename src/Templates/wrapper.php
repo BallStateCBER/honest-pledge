@@ -15,7 +15,7 @@
             [name]
         </p>
         <p id="date">
-            [date]
+            <?= date('F j, Y') ?>
         </p>
 
     </body>
