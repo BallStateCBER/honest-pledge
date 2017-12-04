@@ -39,7 +39,10 @@ class Pledge
      */
     private function replaceTokens($template, $name)
     {
-        return str_replace('[name]', $name, $template);
+        $template = str_replace('[name]', $name, $template);
+        $template = str_replace('[date]', date('F j, Y'), $template);
+
+        return $template;
     }
 
     public function getHtml()
