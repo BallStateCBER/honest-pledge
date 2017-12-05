@@ -16,7 +16,7 @@
                 <td>
                     <img src="<?= $imgUrl ?>" />
                 </td>
-                <td id="main">
+                <td>
                     <h1>
                         The Honest Muncie Pledge
                     </h1>

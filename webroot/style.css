@@ -7,9 +7,9 @@ body {
     font-family: 'Alegreya Sans', sans-serif;
     margin: 0;
     padding: 0;
-    page-break-inside: avoid;
-    page-break-before: avoid;
     page-break-after: avoid;
+    page-break-before: avoid;
+    page-break-inside: avoid;
 }
 main {
     border: 15px solid #6C408E;
@@ -27,19 +27,6 @@ table {
     font-size: 16px;
     max-height: 100%;
 }
-#side-img {
-    height: 100%;
-    max-height: 100%;
-    margin-left: 30px;
-    object-fit: contain;
-}
-#signature {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 200%;
-}
-#main {
-    padding: 15px;
-}
 p:first-of-type {
     font-size: 18px;
     margin-bottom: 15px;
@@ -53,11 +40,15 @@ td:first-child img {
     width: 237px;
 }
 td:last-child {
-
+    padding: 15px;
 }
 ul {
     margin-top: 0;
 }
 p {
     margin-bottom: 0;
+}
+#signature {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 200%;
 }
