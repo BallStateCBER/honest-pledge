@@ -1,5 +1,8 @@
 <p>
-    As a Citizen of Muncie/Delaware County I wish to help end corruption in local government and to create an
+    <strong>
+        As a Citizen of Muncie/Delaware County,
+    </strong>
+    I wish to help end corruption in local government and to create an
     environment of trust between citizens and their government.
 </p>
 

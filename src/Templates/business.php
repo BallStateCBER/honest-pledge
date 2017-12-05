@@ -1,5 +1,8 @@
 <p>
-    As a business owner in Muncie/Delaware County I wish to help end corruption in local government and to create an 
+    <strong>
+        As a business owner in Muncie/Delaware County,
+    </strong>
+    I wish to help end corruption in local government and to create an
     environment of trust, where my business can thrive and grow.
 </p>
 
