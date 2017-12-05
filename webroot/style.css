@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Berkshire+Swash');
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    page-break-inside: avoid;
+    page-break-before: avoid;
+    page-break-after: avoid;
+}
+main {
+    border: 15px solid #6C408E;
+    margin: 15px;
+}
+h1 {
+    color: #6C408E;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+table {
+    border-collapse: collapse;
+    font-size: 16px;
+    max-height: 100%;
+}
+#side-img {
+    height: 100%;
+    max-height: 100%;
+    margin-left: 30px;
+    object-fit: contain;
+}
+#signature {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 200%;
+}
+#main {
+    padding: 15px;
+}
+p:first-of-type {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+td:first-child {
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    width: 237px;
+}
+td:first-child img {
+    width: 237px;
+}
+td:last-child {
+
+}
+ul {
+    margin-top: 0;
+}
+p {
+    margin-bottom: 0;
+}
