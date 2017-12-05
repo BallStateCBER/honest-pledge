@@ -5,14 +5,16 @@
     <title>
         Honest Muncie Pledge Form
     </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+    <script src="https://pledge.honestmuncie.org/form.js"></script>
 </head>
 <body>
     <h1>
         Honest Muncie Pledge Form
     </h1>
-    <form method="get">
+    <form method="get" id="pledge-form">
         <p>
-            <input type="text" name="name" placeholder="Name" />
+            <input type="text" name="name" placeholder="Name" required="required" />
         </p>
 
         <p>
@@ -31,5 +33,10 @@
             </button>
         </p>
     </form>
+    <script>
+        jQuery(document).ready(function () {
+            pledgeForm.init();
+        });
+    </script>
 </body>
 </html>
