@@ -18,7 +18,7 @@
 </ul>
 
 <p>
-    So I pledge to:
+    So I pledge:
 </p>
 
 <ul>
